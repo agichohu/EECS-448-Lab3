@@ -1,0 +1,27 @@
+.slideshow
+{
+    max-width:700px;
+}
+
+.slide
+{
+    display:none;
+}
+
+.leftButton, .rightButton
+{
+    color:white;
+    background-color: deeppink;
+    font-weight: bold;
+    transition: .7s;
+}
+
+.rightButton
+{
+    right:0;
+}
+
+.leftButton:hover, .rightButton:hover
+{
+    background-color: rgba(0,0,0,.9);
+}
